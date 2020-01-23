@@ -15,7 +15,7 @@ body {
 /* Navbar */
 
 .logo__nav {
-    width: 60px;
+    width: 100px;
     height: auto;
 }
 
@@ -37,7 +37,7 @@ body {
 /* Descripcion */
 
 .imagen__about {
-    width: 300px;
+    width: 250px;
 }
 
 .descripcion {
@@ -48,7 +48,7 @@ body {
 }
 
 .texto__descripcion {
-    font-size: 9pt;
+    font-size: 14px;
     color: #f65830;
 }
 
@@ -60,4 +60,14 @@ body {
 
 .subtitulos__experiencia {
     font-weight: 700;
+}
+
+/* Proyectos */
+
+.trabajos {
+    background-color: #f65830;
+}
+
+.titulo__proyectos {
+    width: 250px;
 }
