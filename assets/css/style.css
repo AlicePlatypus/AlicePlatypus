@@ -5,6 +5,20 @@ Color naranjo #f65830 f65830 */
 /* Navbar */
 
 .logo__nav {
-    width: 80px;
+    width: 60px;
     height: auto;
+}
+
+/* Header */
+
+.presentacion {
+    background-image: url(../img/foto__alicia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+.logo__blanco {
+    width: 200px;
 }
