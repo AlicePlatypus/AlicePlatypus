@@ -1,6 +1,16 @@
 /*
 Color verde #71cab5 71cab5 
-Color naranjo #f65830 f65830 */
+Color naranjo #f65830 f65830 
+color rojo #cb0000  */
+
+
+/* Body */
+
+
+body {
+    background-color:#f65830;
+    font-family:'Montserrat', sans-serif;
+}
 
 /* Navbar */
 
@@ -16,9 +26,38 @@ Color naranjo #f65830 f65830 */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 600px;
 }
 
 .logo__blanco {
-    width: 200px;
+    width: 350px;
+    margin-top: 320px;
+}
+
+/* Descripcion */
+
+.imagen__about {
+    width: 300px;
+}
+
+.descripcion {
+    background-color: #ffffff;
+    border-radius: 3%;
+    width: 340px;
+    opacity: 80%;
+}
+
+.texto__descripcion {
+    font-size: 9pt;
+    color: #f65830;
+}
+
+/* Experiencia */
+
+.experiencia {
+    background-color: #71cab5;
+}
+
+.subtitulos__experiencia {
+    font-weight: 700;
 }
