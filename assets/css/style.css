@@ -8,7 +8,7 @@ color rojo #cb0000  */
 
 
 body {
-    background-color:#f65830;
+    background-color: #71cab5;
     font-family:'Montserrat', sans-serif;
 }
 
@@ -36,6 +36,10 @@ body {
 
 /* Descripcion */
 
+.about__me {
+    background-color: #f65830;
+}
+
 .imagen__about {
     width: 250px;
 }
@@ -50,9 +54,14 @@ body {
 .texto__descripcion {
     font-size: 14px;
     color: #f65830;
+    font-weight: 300;
 }
 
 /* Experiencia */
+
+.hojas__moradas {
+    width: 100px;
+}
 
 .experiencia {
     background-color: #71cab5;
@@ -62,7 +71,25 @@ body {
     font-weight: 700;
 }
 
+.iconos__experiencia {
+    color: #ffffff;
+    text-align: center;
+}
+
+.texto__experiencia {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.logo-programas {
+    width: 80px;
+}
+
 /* Proyectos */
+
+.trabajos {
+    color: #f65830;
+}
 
 .trabajos {
     background-color: #f65830;
