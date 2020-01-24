@@ -19,6 +19,17 @@ body {
     height: auto;
 }
 
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
 /* Header */
 
 .presentacion {
@@ -26,7 +37,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 700px;
 }
 
 .logo__blanco {
@@ -72,8 +83,8 @@ body {
 }
 
 .iconos__experiencia {
-    color: #ffffff;
     text-align: center;
+    color: #ffffff;
 }
 
 .texto__experiencia {
@@ -81,8 +92,16 @@ body {
     font-size: 16px;
 }
 
+.programas {
+    display: inline-block;
+}
+
 .logo-programas {
     width: 80px;
+}
+
+.parrafo__experiencia {
+    font-weight: 300;
 }
 
 /* Proyectos */
@@ -97,4 +116,24 @@ body {
 
 .titulo__proyectos {
     width: 250px;
+}
+
+.card {
+    margin: 0!important;
+    background-color: #f65830!important;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+}
+
+.texto__footer {
+   font-weight: 300;
+   font-size: 14px;
+}
+
+i {
+    color: #ffffff;
 }

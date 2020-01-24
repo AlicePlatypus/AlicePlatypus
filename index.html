@@ -16,7 +16,7 @@
 
     <!--Navbar-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger navbar-default navbar-fixed-top">
         <a class="navbar-brand ml-2" href="#"><img src="assets/img/logo-ornitorrinco.png" class="logo__nav" alt="Logotipo blanco"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -24,30 +24,32 @@
         <div class="collapse navbar-collapse secciones__nav mr-5" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#" data-toggle="tooltip" title="Aquí vuelves al inicio jiji">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#inicio" data-toggle="tooltip" title="Aquí vuelves al inicio jiji">Inicio<span class="sr-only">(current)</span></a>
               </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#" data-toggle="tooltip" title="Esta soy yo jiji">Descripción<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#descripcion" data-toggle="tooltip" title="Esta soy yo jiji">Descripción<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#" data-toggle="tooltip" title="Cosas que hice yo jiji">Trabajos</a>
+              <a class="nav-link" href="#proyectos" data-toggle="tooltip" title="Cosas que hice yo jiji">Proyectos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#" data-toggle="tooltip" title="Háblame aquí jiji">Contacto</a>
+                <a class="nav-link" href="#contacto" data-toggle="tooltip" title="Háblame aquí jiji">Contacto</a>
               </li>
             </ul>
         </div>
     </nav>
 
     <!--Header-->
-    <header class="presentacion">
+
+    <header id="inicio" class="presentacion">
       <div class="row justify-content-center">
         <img src="assets/img/Logo-blanco.png" alt="Logo blanco" class="logo__blanco">
       </div>
     </header>
+
     <!--Descripción--> 
 
-    <section class="about__me">
+    <section id="descripcion" class="about__me">
       <div class="container">
         <div class="row justify-content-center py-5 px-2">
 
@@ -70,51 +72,46 @@
     
     <section class="experiencia">
 
+      <!-- HOJITA MORADA
       <div class="container"></div>
         <div class="row justify-content-end pt-2">
           <div class="col-lg-2 col-sm-2">
             <img src="assets/img/hojas-moradas.png" class="hojas__moradas" alt="hojas moradas">
-        </div>
+        </div>-->
 
-      <div class="container px-lg-5">
+      <div class="container">
 
-        <div class="row justify-content-md-center align-tems-center mx-lg-n5 pb-3">
+        <div class="row">
 
-          <h2 class="col-12 text-center subtitulos__experiencia text-light">MIS FUERTES</h2>
+          <h2 class="text-light text-center subtitulos__experiencia col-lg-6 col-sm-12 pt-3 py-3">MIS FUERTES</h2>
 
-          <div class="col col-lg-2 col-sm-12 iconos__experiencia py-3">
-            <i class="fas fa-camera fa-5x"></i>
+          <h2 class="text-center subtitulos__experiencia text-light col-lg-6 d-none d-lg-block pt-3 py-3">MANEJO DE SOFTWARE</h2>
+
+          <div class="col-lg-3 col-sm-12 iconos__experiencia py-3">
+            <i class="fas fa-camera fa-4x"></i>
             <p class="texto__experiencia pt-2"> Fotografía</p>
           </div>
 
-          <div class="col-lg-2 col-sm-12 iconos__experiencia py-3">
-            <i class="fas fa-pencil-alt fa-5x"></i>
+          <div class="col-lg-3 col-sm-12 iconos__experiencia py-3">
+            <i class="fas fa-pencil-alt fa-4x"></i>
             <p class="texto__experiencia pt-2"> Ilustración</p>
           </div>
 
-         <h2 class="col-12 text-center subtitulos__experiencia text-light">MANEJO DE SOFTWARE</h2>
-
-          <div class="programas col-lg-2">
+          <div class="col-lg-6 d-none d-lg-block programas py-3">
             <img src="assets/img/icono-ps.png" alt="logo photoshop" class="logo-ps logo-programas">
-          </div>
-
-          <div class="programas col-lg-2">
             <img src="assets/img/icono-ai.png" alt="logo illustrator" class="logo-ai logo-programas">
-          </div>
-
-          <div class="programas col-lg-2">
             <img src="assets/img/icono-id.png" alt="logo indesing" class="logo-id logo-programas">
-          </div>
-
-          <div class="programas col-lg-2">
             <img src="assets/img/icono-lr.png" alt="logo lightroom" class="logo-lr logo-programas">
-          </div>
-
-          <div class="programas col-lg-2">
             <img src="assets/img/icono-ae.png" alt="logo after effects" class="logo-ae logo-programas">
           </div> 
 
+          <div class="col-lg-6 d-none d-lg-block py-4">
+            <p class="parrafo__experiecia text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis posuere diam a tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          </div>
 
+          <div class="col-lg-6 d-none d-lg-block py-4">
+            <p class="parrafo__experiencia text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mattis posuere diam a tincidunt. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+          </div>
           
 
         </div>
@@ -123,12 +120,12 @@
 
     <!--Trabajos-->
 
-      <section class="trabajos">
+      <section id="proyectos" class="trabajos">
 
         <div class="container">
           <div class="row justify-content-center">
 
-            <img src="assets/img/texto-proyectos.png" class="titulo__proyectos" alt="titulo proyectos">
+            <img src="assets/img/texto-proyectos.png" class="titulo__proyectos py-4" alt="titulo proyectos">
 
           </div>
 
@@ -191,18 +188,19 @@
 
     <!--Contacto-->
 
-    <div class="typeform-widget by-0" data-url="https://alicialobos732261.typeform.com/to/m6Lamt" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=m6Lamt&utm_source=typeform.com-01DZ4HCCE186W1VVBQZ35YZJZV-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
-   
+    <div id="contacto" class="typeform-widget" data-url="https://alicialobos732261.typeform.com/to/m6Lamt" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=m6Lamt&utm_source=typeform.com-01DZ4HCCE186W1VVBQZ35YZJZV-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+
     <!--Footer-->
 
-    <footer class="bg-danger my-0 by-0 py-5">
+    <footer class="bg-danger py-5">
       <div class="container">
-        <div class="row justify-content-md-center align-tems-center">
-          <div class="redes__socialess">
-            <i class="fab fa-flickr fa-3x"><a href="https://www.flickr.com"></a></i>
-            <i class="fab fa-steam-square fa-3x"><a href="https://www.steam.com"></a></i>
-            <i class="fab fa-discord fa-3x"><a href="https://www.discord.com"></a></i>       
+        <div class="row align-tems-center">
+          <div class="redes__sociales col-12">
+            <a href="https://flickr.com/photos/chimpiru"><i class="fab fa-flickr fa-3x" data-toggle="tooltip" title="Aquí ves mi fotos jiji"></i></a>
+            <a href="https://steamcommunity.com/id/AlicePlatypus"><i class="fab fa-steam-square fa-3x" data-toggle="tooltip" title="Aquí jugai conmigo jiji"></i></a>
+            <a href="https://www.discord.com"><i class="fab fa-discord fa-3x" data-toggle="tooltip" title="Aquí hablas conmigo jiji"></i></a>       
           </div>
+          <p class="texto__footer text-light col-12 py-2">Encuentrame aquí :)</p>
         </div>
       </div> 
     </footer>
