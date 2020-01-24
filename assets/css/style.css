@@ -123,6 +123,38 @@ body {
     background-color: #f65830!important;
 }
 
+/*.foto__modal {
+    width: 100%;
+    height: auto;
+} */
+
+.premios__nacionales {
+    background-image: url(../img/proyecto-1-modal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: auto;
+} 
+
+.noche__mastriste {
+    background-image: url(../img/proyecto-2-modal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: auto;
+}
+
+.tatio {
+    background-image: url(../img/proyecto-3-modal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: auto;
+}
+
 /* Footer */
 
 footer {
